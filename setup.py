@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'junit_to_markdown=junit-to-markdown.converter:convert_file',
+            'junit_to_markdown=junit_to_markdown.converter:convert_file',
         ],
     },
     author='Steven Goossens',
