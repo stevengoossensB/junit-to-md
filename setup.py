@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='junit-to-markdown',
+    name='junit_to_markdown',
     version='0.2.0',
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'junit-to-markdown=junit-to-markdown.converter:convert_file',
+            'junit_to_markdown=junit-to-markdown.converter:convert_file',
         ],
     },
     author='Steven Goossens',
